@@ -1,0 +1,168 @@
+*{box-sizing:border-box;}
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background:#000;
+    height:100vh;
+    overflow:hidden;
+}
+.container{
+    width:550px;
+    height:500px;
+    background:#fff;
+    margin:80px auto;
+    border-radius:20px;
+}
+.container form{
+    box-sizing:border-box;
+    padding:30px;
+}
+.detailes small{
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:red;
+    visibility:hidden;
+}
+form .detailes{
+    border-bottom:2px solid rgb(54, 53, 53);
+    margin:10px 0px;
+    position:relative;
+}
+.detailes input{
+    width:100%;
+    padding:0px 10px;
+    border:none;
+    background:none;
+    outline:none;
+    font-size:20px;
+}
+.detailes label{
+    position:absolute;
+    top:10px;
+    left:5px;
+    text-transform:capitalize;
+    color:rgb(100, 96, 96);
+    transform:translateY(-50%);
+    font-size:20px;
+    
+}
+/* .detailes span ::before{
+    content:'';
+    position:absolute;
+    top:40px;
+    left:0px;
+    width:100%;
+    height:2px;
+    background: #2691d9;
+}
+.detailes input:focus ~ label,
+.detailes input:valid ~ label{
+    top:-5px;
+    color:#2691d9;
+}
+.detailes input:focus ~ span::before,
+.detailes input:valid ~ span::before{
+    width:100%;
+} */
+.pickdate{
+    display:flex;
+    margin-top:50px;
+}
+.pickdate select{
+    background:none;
+    border:none;
+    outline:none;
+    font-size:16px;
+    color:rgb(100, 96, 96);
+}
+.pick1{
+    width:80px;
+    border-bottom:2px solid  rgb(54, 53, 53);
+    margin:-10px 0px 0px 50px;
+    padding:0px 0px 0px 10px; 
+}
+.pick2{
+    width:95px;
+    border-bottom:2px solid  rgb(54, 53, 53);
+    margin:-10px 0px 0px 20px;
+}
+.pick3{
+    width:95px;
+    border-bottom:2px solid  rgb(54, 53, 53);
+    margin:-10px 0px 0px 20px;
+}
+.pick1 select{
+    padding:0px 0px 0px 15px;
+}
+.pick2 select{
+    padding:0px 0px 0px 30px;
+}
+.pick3 select{
+    padding:0px 0px 0px 20px;
+}
+.picktime{
+    display:flex;
+    margin-top:30px;
+}
+.picktime select{
+    font-size:16px;
+    color:rgb(100, 96, 96);
+    background:none;
+    border:none;
+    outline:none;
+}
+.hour{
+    width:80px;
+    border-bottom:2px solid  rgb(54, 53, 53);
+    margin:0px 0px 0px 50px;
+    padding:0px 0px 0px 10px; 
+}
+.minute{
+    width:95px;
+    border-bottom:2px solid  rgb(54, 53, 53);
+    margin:0px 0px 0px 20px;
+}
+.ampm{
+    width:95px;
+    border-bottom:2px solid  rgb(54, 53, 53);
+    margin:0px 0px 0px 20px;
+}
+.hour select{
+    padding:0px 0px 0px 15px;
+}
+.minute select{
+    padding:0px 0px 0px 30px;
+}
+.ampm select{
+    padding:0px 0px 0px 20px;
+}
+.people{
+    border-bottom:2px solid rgb(54, 53, 53);
+    margin-top:0px;
+}
+.people button{
+    background:none;
+    border:none;
+    outline:none;
+}
+.decrement{
+    margin-left:40px;
+    font-size:50px;
+}
+.show{
+    margin-left:160px;
+}
+.increment{
+    margin-left:120px;
+    font-size:30px;
+}
+.btn{
+    width:400px;
+    height:50px;
+    background:#000;
+    color:#fff;
+    font-size:20px;
+    margin:40px 0px 0px 40px;
+}
